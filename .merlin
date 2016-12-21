@@ -1,15 +1,14 @@
-#FLG -ppx node_modules/bs-platform/bin\bsppx.exe
 
-S node_modules/bs-platform/lib/ocaml
-B node_modules/bs-platform/lib/ocaml
+# testing if it works
 
-FLG -ppx node_modules/bs-platform/bin/bsppx.exe
+####{BSB GENERATED: NO EDIT
+S /usr/local/lib/node_modules/bs-platform/bin/../lib/ocaml
+B /usr/local/lib/node_modules/bs-platform/bin/../lib/ocaml
+FLG -ppx /usr/local/lib/node_modules/bs-platform/bin/bsppx.exe
 
+FLG -w -40
 S src
-B src
-B tmp
+B lib/bs/src
+####BSB GENERATED: NO EDIT}
 
-B +compiler-libs
-
-FLG -w +a-29-42
-
+# cool

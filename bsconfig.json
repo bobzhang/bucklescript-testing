@@ -1,68 +1,17 @@
 {
     "version": "1.0.0",
     "name": "testing",
-    "ocaml-config": {
-        "sources": [
-            {"dir": "src",
-            "files": [ 
-                       "web_xmlhttprequest.ml"
-                       , "web_window_history.ml"
-                       , "web_window.ml"
-                       , "web_node.ml"
-                       , "web_location.ml"
-                       , "web_json.ml"
-                       , "web_formdata.ml"
-                       , "web_event.ml"
-                       , "web_document.ml"
-                       , "web_date.ml"
-                       , "web.ml"
-                       , "vdom.ml"
-                       , "testering.re"
-                       , "tea_time.ml"
-                       , "tea_task.ml"
-                       , "tea_svg_events.ml"
-                       , "tea_svg_attributes.ml"
-                       , "tea_svg.ml"
-                       , "tea_sub.ml"
-                       , "tea_result.ml"
-                       , "tea_random.ml"
-                       , "tea_program.ml"
-                       , "tea_navigation.ml"
-                       , "tea_json.ml"
-                       , "tea_http.ml"
-                       , "tea_html_cmds.ml"
-                       , "tea_html.ml"
-                       , "tea_cmd.ml"
-                       , "tea_app.ml"
-                       , "tea_animationframe.ml"
-                       , "tea.ml"
-                       , "main_todoarray.ml"
-                       , "main_todo_optimizedmap.ml"
-                       , "main_todo_optimizedarray.ml"
-                       , "main_todo_optimized.ml"
-                       , "main_todo.ml"
-                       , "main_random_color.ml"
-                       , "main_random.ml"
-                       , "main_json.ml"
-                       , "main_gtpollute.ml"
-                       , "main_gg.ml"
-                       , "main_form.ml"
-                       , "main_field.ml"
-                       , "main_entry.ml"
-                       , "main_embeddedCountersParts.ml"
-                       , "main_embeddedCounters.ml"
-                       , "main_counter_navigation.ml"
-                       , "main_counter.ml"
-                       , "main_clock_svg.ml"
-                       , "main_clock.ml"
-                       , "main_clicker.ml"
-                       , "main_bookreader.ml"
-                       , "fib.ml"
-                       , "effect_time.ml"
-                       , "counterParts.ml"
-                       , "counter.ml"
-                       ]
-                       }
-        ]
-    }
+
+    "package-specs": ["amdjs", "commonjs"],
+    "sources": [
+        {"dir": "src"
+
+            
+        }
+    ],
+    "bsc-flags" : ["-w -40"],
+    // "bsc-flags" : ["-w" , "-40"],
+    "generate-merlin" : true,
+
+    
 }
